@@ -19,15 +19,15 @@ logging.getLogger("telethon").setLevel(logging.WARNING)
 
 uvloop.install()
 MDB = "mongodb+srv://ggn:ggn@ggn.upuljx5.mongodb.net/?retryWrites=true&w=majority&appName=ggn"
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
-SESSION = config("SESSION", default=None)
-FORCESUB = config("FORCESUB", default=None)
-AUTH = config("AUTH", default=None)
-MONGODB = config("MONGODB", default=MDB)
-OWN = 7065117445 # edit this
-GROUP = -1001878947221 # edit this
+API_ID = "23449041"
+API_HASH = "22263bf0807d45f0fc9bac99471fec1b"
+BOT_TOKEN = "7366478096:AAHbr0dqd7HgR6kyeJyjr3EvdenMYZY__6A"
+SESSION = "BAFlzdEAozQolx1LHYhfrL0leS-yZz8ZxvHj2ehU-VJnjY6PA_7xp1OVWW38mZi-Tl73AeBdPB0YJadMw-IQIAcUkrU1iNdog07w8R-GRFem2e_8FLu1YHbCJPJfktM3vbxAhdWZT5vqCJvXmrn-usZCXOdDS1xuZ1VzMusK8Mod6OUY71jB1A9kJ6W_sg-lnZC2IlBicEr2KDAN9DZsEDc-hbWPl9B6LrX4Yl7ZmhiWIsvz2OsFP9Vg7VoZPz8IRd4YGD2LUcN8Y-Cn9DSG_qSNx2-PQDrQgj9bb3uxitXfO-94-7qwrFVOtaeGmVwZULMvoGHoP1f2MmEUwzlUjUlDMkQcpwAAAAGIjIX8AA"
+FORCESUB = "ultrasaves"
+AUTH = "6585878012"
+MONGODB = "mongodb+srv://ggn:ggn@ggn.upuljx5.mongodb.net/?retryWrites=true&w=majority&appName=ggn"
+OWN = 6585878012 # edit this
+GROUP = -1002002312606 # edit this
 OWNER_ID = int(config("OWNER_ID", default=OWN))
 LOG_GROUP = int(config("LOG_GROUP", default=GROUP))
 
